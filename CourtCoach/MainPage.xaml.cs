@@ -26,5 +26,15 @@ namespace CourtCoach
         {
             this.InitializeComponent();
         }
+
+        private void btn_statistics_Click(object sender, RoutedEventArgs e)
+        {
+            this.Content = new StatisticPage();
+        }
+
+        private void btn_training_Click(object sender, RoutedEventArgs e)
+        {
+            this.Content= new TrainingPage();   
+        }
     }
 }
