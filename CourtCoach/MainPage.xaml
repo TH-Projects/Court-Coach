@@ -27,7 +27,7 @@
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="1" Margin="10">
                 <Grid.Background>
-                    <ImageBrush ImageSource="/Assets/placeholder.png" Stretch="Fill"/>
+                    <ImageBrush ImageSource="/Assets/CourtCoach.png" Stretch="Uniform"/>
                 </Grid.Background>
 
             </Grid>
@@ -52,7 +52,7 @@
                 <Button x:Name="btn_training" VerticalAlignment="Center" 
                         HorizontalAlignment="Stretch" CornerRadius="15"
                         BorderThickness="4" Click="btn_training_Click">
-                    <Viewbox MaxHeight="100" MinHeight="70" Margin="10">
+                    <Viewbox MaxHeight="80" MinHeight="60" Margin="10">
                         <TextBlock Text="Start training"/>
                     </Viewbox>
                 </Button>
@@ -62,7 +62,7 @@
                 <Button x:Name="btn_statistics" VerticalAlignment="Center" 
                         HorizontalAlignment="Stretch" CornerRadius="15"
                         BorderThickness="4" Click="btn_statistics_Click">
-                    <Viewbox MaxHeight="100" MinHeight="70" Margin="10">
+                    <Viewbox MaxHeight="80" MinHeight="60" Margin="10">
                         <TextBlock Text="Show statistics"/>
                     </Viewbox>
                 </Button>

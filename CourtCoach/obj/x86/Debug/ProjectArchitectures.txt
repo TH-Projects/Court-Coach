@@ -1,1 +1,1 @@
-C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\CourtCoach.csproj;x86
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\CourtCoach.csproj;x86

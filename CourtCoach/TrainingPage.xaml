@@ -10,6 +10,63 @@
     RequestedTheme="Light">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Grid.Row="0" 
+              Grid.RowSpan="4" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <CompositeTransform Rotation="90"/>
+            </Grid.RenderTransform>
+            <Grid.Background>
+                <ImageBrush ImageSource="/Assets/Shootingme.png" Stretch="Uniform"/>
+            </Grid.Background>
 
+
+
+
+
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="0" 
+              Grid.RowSpan="4" Background="Red">
+
+
+
+
+
+        </Grid>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Button x:Name="btn_backToMainMenue" HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch" BorderThickness="0" 
+                    Margin="1,2,2,3" Click="btn_backToMainMenue_Click">
+                <Viewbox>
+                    <TextBlock Text="❮" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                    Margin="40,0,40,0" CornerRadius="10">
+                <Viewbox MaxHeight="80">
+                    <TextBlock Text="Start shooting session"/>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                    Margin="40,0,40,0" CornerRadius="10">
+                <Viewbox MaxHeight="80">
+                    <TextBlock Text="Start dribble session"/>
+                </Viewbox>
+            </Button>
+        </Grid>
     </Grid>
 </Page>

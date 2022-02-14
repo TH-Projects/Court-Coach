@@ -26,5 +26,10 @@ namespace CourtCoach
         {
             this.InitializeComponent();
         }
+
+        private void btn_backToMainMenue_Click(object sender, RoutedEventArgs e)
+        {
+            this.Content= new MainPage();   
+        }
     }
 }
