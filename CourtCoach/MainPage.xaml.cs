@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x407 dokumentiert.
@@ -22,9 +23,13 @@ namespace CourtCoach
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        static BitmapImage MainBG = new BitmapImage(new Uri("ms-appx:///Assets/Fotolia_149218236_XL.jpg"));
+        static BitmapImage MainLogo = new BitmapImage(new Uri("ms-appx:///Assets/CourtCoach.png"));
         public MainPage()
         {
             this.InitializeComponent();
+            img.Source = MainBG;
+            Logo.Source = MainLogo;
         }
 
         private void btn_statistics_Click(object sender, RoutedEventArgs e)

@@ -9,15 +9,13 @@
     RequestedTheme="Light">
 
     <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="/Assets/Fotolia_149218236_XL.jpg" 
-                        Stretch="Fill" Opacity="0.7"/>
-        </Grid.Background>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"></RowDefinition>
             <RowDefinition Height="4*"></RowDefinition>
         </Grid.RowDefinitions>
+        
+        <Image Stretch="Fill" Grid.RowSpan="2" CacheMode="BitmapCache" Source="/Assets/Fotalia_149218236_XL.jpg"  />
 
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>

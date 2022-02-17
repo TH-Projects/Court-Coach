@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Timo Heckmann\\Documents\\GithubLocal\\CourtCoach\\CourtCoach\\CourtCoach.csproj": {}
+    "C:\\Users\\Timo Heckmann\\Documents\\GitHubLocal\\Court-Coach\\CourtCoach\\CourtCoach.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Timo Heckmann\\Documents\\GithubLocal\\CourtCoach\\CourtCoach\\CourtCoach.csproj": {
+    "C:\\Users\\Timo Heckmann\\Documents\\GitHubLocal\\Court-Coach\\CourtCoach\\CourtCoach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Timo Heckmann\\Documents\\GithubLocal\\CourtCoach\\CourtCoach\\CourtCoach.csproj",
+        "projectUniqueName": "C:\\Users\\Timo Heckmann\\Documents\\GitHubLocal\\Court-Coach\\CourtCoach\\CourtCoach.csproj",
         "projectName": "CourtCoach",
-        "projectPath": "C:\\Users\\Timo Heckmann\\Documents\\GithubLocal\\CourtCoach\\CourtCoach\\CourtCoach.csproj",
+        "projectPath": "C:\\Users\\Timo Heckmann\\Documents\\GitHubLocal\\Court-Coach\\CourtCoach\\CourtCoach.csproj",
         "packagesPath": "C:\\Users\\Timo Heckmann\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Timo Heckmann\\Documents\\GithubLocal\\CourtCoach\\CourtCoach\\obj\\",
+        "outputPath": "C:\\Users\\Timo Heckmann\\Documents\\GitHubLocal\\Court-Coach\\CourtCoach\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

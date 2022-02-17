@@ -1,0 +1,2 @@
+CourtCoach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  CourtCoach.Assets.Fotolia_149218236_XL.jpg

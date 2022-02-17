@@ -17,9 +17,6 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0" Grid.ColumnSpan="2">
-            <Grid.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/placeholder.png" Opacity="0.3"/>
-            </Grid.Background>
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
@@ -31,7 +28,12 @@
                 <RowDefinition Height="2*"></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
             </Grid.RowDefinitions>
-        
+
+
+            <Image x:Name="placehold1" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="4" Opacity="0.3"/>
+
+
+
             <Grid Grid.Row="0" Grid.Column="0">
                 <Button x:Name="btn_backToMainMenue" HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch" BorderThickness="0" Background="Transparent" 
@@ -54,16 +56,14 @@
         </Grid>
 
         <Grid Grid.Column="2">
-            <Grid.Background>
-                <ImageBrush ImageSource="/Assets/placeholder.png" Opacity="0.3"/>
-            </Grid.Background>
+            
             <Grid.RowDefinitions>
                 <RowDefinition Height="6*"></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
             </Grid.RowDefinitions>
-
-            <Grid Grid.Row="1" Grid.Column="2">
+            <Image x:Name="placeholder2" Stretch="Fill" Grid.RowSpan="4" Opacity="0.3"/>
+            <Grid Grid.Row="1">
                 <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
                     Margin="80,0,80,0" CornerRadius="10" BorderThickness="3">
                     <Viewbox MaxHeight="90">
