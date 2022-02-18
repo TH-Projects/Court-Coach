@@ -46,7 +46,7 @@
 
             <Grid Grid.Row="2" Grid.Column="0" ColumnSpan="2">
                 <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                    Margin="80,0,80,0" CornerRadius="10" BorderThickness="3">
+                    Margin="80,0,80,0" CornerRadius="10" BorderThickness="3" Click="Button_Click">
                     <Viewbox MaxHeight="90">
                         <TextBlock Text="Start shooting session"/>
                     </Viewbox>
@@ -67,7 +67,7 @@
                 <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
                     Margin="80,0,80,0" CornerRadius="10" BorderThickness="3">
                     <Viewbox MaxHeight="90">
-                        <TextBlock Text="Start dribble session"/>
+                        <TextBlock Text="Add game stats"/>
                     </Viewbox>
                 </Button>
             </Grid>

@@ -123,6 +123,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shooting.xaml.cs">
+      <DependentUpon>Shooting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShootingInput.xaml.cs">
+      <DependentUpon>ShootingInput.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StatisticPage.xaml.cs">
       <DependentUpon>StatisticPage.xaml</DependentUpon>
     </Compile>
@@ -158,6 +164,14 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shooting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShootingInput.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StatisticPage.xaml">
       <SubType>Designer</SubType>

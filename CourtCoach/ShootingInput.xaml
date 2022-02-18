@@ -1,0 +1,112 @@
+﻿<UserControl
+    x:Class="CourtCoach.ShootingInput"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CourtCoach"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="600"
+    d:DesignWidth="1100"
+    RequestedTheme="Light">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Viewbox VerticalAlignment="Stretch" MaxHeight="50" Margin="5">
+                <TextBlock Text="Freethrow"></TextBlock>
+            </Viewbox>
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="1">
+            <Viewbox VerticalAlignment="Stretch" MaxHeight="50" Margin="5">
+                <TextBlock Text="2-Pointer"></TextBlock>
+            </Viewbox>
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="2">
+            <Viewbox VerticalAlignment="Stretch" MaxHeight="50" Margin="5">
+                <TextBlock Text="3-Pointer"></TextBlock>
+            </Viewbox>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0">
+            <Button x:Name="btn_FreethrowHit" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="7,3,7,11" Click="btn_FreethrowHit_Click" BorderThickness="3">
+                <Viewbox MaxHeight="80" MinHeight="60">
+                    <TextBlock Text="Hit" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Button x:Name="btn_TwoPointHit" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="7" Click="btn_TwoPointHit_Click" BorderThickness="3">
+                <Viewbox MaxHeight="80" MinHeight="60">
+                    <TextBlock Text="Hit" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Button x:Name="btn_ThreePointHit" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="7" Click="btn_ThreePointHit_Click" BorderThickness="3">
+                <Viewbox MaxHeight="80" MinHeight="60">
+                    <TextBlock Text="Hit" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="0">
+            <Button x:Name="btn_FreethrowMiss" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="7" Click="btn_FreethrowMiss_Click" BorderThickness="3">
+                <Viewbox MaxHeight="80" MinHeight="60">
+                    <TextBlock Text="Miss" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="1">
+            <Button x:Name="btn_TwoPointMiss" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="7" Click="btn_TwoPointMiss_Click" BorderThickness="3">
+                <Viewbox MaxHeight="80" MinHeight="60">
+                    <TextBlock Text="Miss" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="2">
+            <Button x:Name="btn_ThreePointMiss" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                    Margin="7" Click="btn_ThreePointMiss_Click" BorderThickness="3">
+                <Viewbox MaxHeight="80" MinHeight="60">
+                    <TextBlock Text="Miss" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="3" Grid.Row="0">
+            <Viewbox VerticalAlignment="Stretch" MaxHeight="50" Margin="5">
+                <TextBlock x:Name="FreethrowRate"></TextBlock>
+            </Viewbox>
+        </Grid>
+        <Grid Grid.Column="3" Grid.Row="1">
+            <Viewbox VerticalAlignment="Stretch" MaxHeight="50" Margin="5">
+                <TextBlock x:Name="TwoPointRate"></TextBlock>
+            </Viewbox>
+        </Grid>
+        <Grid Grid.Column="3" Grid.Row="2">
+            <Viewbox VerticalAlignment="Stretch" MaxHeight="50" Margin="5">
+                <TextBlock x:Name="ThreePointRate"></TextBlock>
+            </Viewbox>
+        </Grid>
+
+
+
+
+
+
+
+
+    </Grid>
+</UserControl>

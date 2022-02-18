@@ -63,3 +63,13 @@ C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debu
 C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
 C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.winmd_637781390800000000.json
 C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637674606580000000.json
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\Shooting.xbf
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\Shooting.g.i.cs
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\Shooting.g.cs
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\Shooting.xaml
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\Shooting.xbf
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\ShootingInput.g.i.cs
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\ShootingInput.g.cs
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\ShootingInput.xaml
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\ShootingInput.xbf
+C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\ShootingInput.xbf

@@ -35,7 +35,7 @@
 
 
             <Grid Grid.Row="0" Grid.Column="0">
-                <Button x:ConnectionId='4' x:Name="btn_backToMainMenue" HorizontalAlignment="Stretch"
+                <Button x:ConnectionId='5' x:Name="btn_backToMainMenue" HorizontalAlignment="Stretch"
                     VerticalAlignment="Stretch" BorderThickness="0" Background="Transparent" 
                     Margin="1,2,2,3"                                  >
                     <Viewbox>
@@ -45,8 +45,8 @@
             </Grid>
 
             <Grid Grid.Row="2" Grid.Column="0" ColumnSpan="2">
-                <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                    Margin="80,0,80,0" CornerRadius="10" BorderThickness="3">
+                <Button x:ConnectionId='4' HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                    Margin="80,0,80,0" CornerRadius="10" BorderThickness="3"                     >
                     <Viewbox MaxHeight="90">
                         <TextBlock Text="Start shooting session"/>
                     </Viewbox>
@@ -67,7 +67,7 @@
                 <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
                     Margin="80,0,80,0" CornerRadius="10" BorderThickness="3">
                     <Viewbox MaxHeight="90">
-                        <TextBlock Text="Start dribble session"/>
+                        <TextBlock Text="Add game stats"/>
                     </Viewbox>
                 </Button>
             </Grid>

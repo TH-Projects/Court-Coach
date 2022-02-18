@@ -35,5 +35,10 @@ namespace CourtCoach
         {
             this.Content= new MainPage();   
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Content = new Shooting();
+        }
     }
 }
