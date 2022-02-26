@@ -19,12 +19,12 @@ namespace CourtCoach
 {
     public sealed partial class ShootingInput : UserControl
     {
-        private double TwoPointAttempts = 0;
-        private double FreethrowAttempts = 0;
-        private double ThreePointAttempts = 0;
-        private double TwoPointHits = 0;
-        private double FreethrowHits = 0;
-        private double ThreePointHits = 0;
+        private int TwoPointAttempts = 0;
+        private int FreethrowAttempts = 0;
+        private int ThreePointAttempts = 0;
+        private int TwoPointHits = 0;
+        private int FreethrowHits = 0;
+        private int ThreePointHits = 0;
         public ShootingInput()
         {
             this.InitializeComponent();
@@ -33,10 +33,10 @@ namespace CourtCoach
             ThreePointRate.Text = PrintHitRate(0, 0);
         }
 
-        private string PrintHitRate( double att, double hits)
+        private string PrintHitRate( int att, int hits)
         {
             if (att != 0)
-                return String.Format("{0}/{1}, {2}%", hits, att, Math.Round((hits / att) * 100));
+                return String.Format("{0}/{1}, {2}%", hits, att, Math.Round(((double)hits / att) * 100));
             else
                 return String.Format("0/0, 0%");
         }
