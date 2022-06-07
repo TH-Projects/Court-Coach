@@ -13,10 +13,11 @@
       <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="RequestedTheme" />
-      <RootProperty Name="Content" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="RequestedTheme" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
@@ -42,14 +43,26 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
+    <RootType FullName="CourtCoach.ResponsiveButton">
+      <RootProperty Name="Text" />
+      <RootProperty Name="MaxTextHeight" />
+      <RootProperty Name="MinTextHeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
+      <RootEvent Name="OnClick" />
+    </RootType>
+    <RootType FullName="CourtCoach.MainMenue" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="CourtCoach.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Background" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
@@ -59,21 +72,16 @@
       <RootProperty Name="Child" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
     </RootType>
-    <RootType FullName="CourtCoach.MainPage" />
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="CourtCoach.ShootingInput">
+    <RootType FullName="CourtCoach.ResponsiveTextBlock">
+      <RootProperty Name="MaxTextHeight" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="CourtCoach.Shooting" />
-    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
-      <RootProperty Name="RequestedTheme" />
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="CourtCoach.StatisticPage" />
     <RootType FullName="CourtCoach.TrainingPage" />
   </Roots.RootTypes>

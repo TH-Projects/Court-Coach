@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F20AFD70F35693150B3C2197F84F7F0D131E735F2A21D6A30DFD97856688F2A3</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0C6E229ED52A39AE40A1B2AE2E13CC52688E3260B68B701C053D0CD79EB0DCF7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>68de26b5-8c2a-4537-962d-9fadc63dbd0f_1.0.0.0_x64__q7n782027h01m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68de26b5-8c2a-4537-962d-9fadc63dbd0f_q7n782027h01m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>68de26b5-8c2a-4537-962d-9fadc63dbd0f</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:08:45.831</Modified>
+      <Modified>2022-05-24T09:05:03.053</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\CourtCoach.exe">
       <PackagePath>entrypoint\CourtCoach.exe</PackagePath>
-      <Modified>2022-02-26T09:55:33.762</Modified>
+      <Modified>2022-05-24T09:05:02.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\.nuget\packages\microsoft.web.webview2\1.0.1018-prerelease\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -74,13 +74,45 @@
       <PackagePath>Assets\adad %282%29.jpg</PackagePath>
       <Modified>2022-02-14T13:58:32.091</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Basket.jpg">
+      <PackagePath>Assets\Basket.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.419</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg">
       <PackagePath>Assets\Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg</PackagePath>
       <Modified>2022-02-13T13:55:55.373</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Floater.jpg">
+      <PackagePath>Assets\Floater.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.441</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Fotolia_149218236_XL.jpg">
       <PackagePath>Assets\Fotolia_149218236_XL.jpg</PackagePath>
       <Modified>2022-02-13T13:58:09.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\handleOne.jpg">
+      <PackagePath>Assets\handleOne.jpg</PackagePath>
+      <Modified>2022-05-04T08:00:55.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\HandleTwo.jpg">
+      <PackagePath>Assets\HandleTwo.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LayupOne.jpg">
+      <PackagePath>Assets\LayupOne.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LayupThree.jpg">
+      <PackagePath>Assets\LayupThree.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LayupTwo.jpg">
+      <PackagePath>Assets\LayupTwo.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Shoot.jpg">
+      <PackagePath>Assets\Shoot.jpg</PackagePath>
+      <Modified>2022-05-04T07:47:40.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -375,31 +407,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\CourtCoach.xr.xml">
       <PackagePath>CourtCoach.xr.xml</PackagePath>
-      <Modified>2022-02-21T15:04:57.809</Modified>
+      <Modified>2022-05-24T08:57:13.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-26T10:08:44.772</Modified>
+      <Modified>2022-05-24T09:05:02.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\MainMenue.xbf">
+      <PackagePath>MainMenue.xbf</PackagePath>
+      <Modified>2022-05-24T09:05:02.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-26T10:08:44.772</Modified>
+      <Modified>2022-05-24T09:05:02.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ResponsiveButton.xbf">
+      <PackagePath>ResponsiveButton.xbf</PackagePath>
+      <Modified>2022-05-24T09:05:02.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ResponsiveTextBlock.xbf">
+      <PackagePath>ResponsiveTextBlock.xbf</PackagePath>
+      <Modified>2022-05-24T09:05:02.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\Shooting.xbf">
       <PackagePath>Shooting.xbf</PackagePath>
-      <Modified>2022-02-26T10:08:44.772</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ShootingInput.xbf">
-      <PackagePath>ShootingInput.xbf</PackagePath>
-      <Modified>2022-02-26T10:08:44.772</Modified>
+      <Modified>2022-05-24T09:05:02.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\StatisticPage.xbf">
       <PackagePath>StatisticPage.xbf</PackagePath>
-      <Modified>2022-02-26T10:08:44.772</Modified>
+      <Modified>2022-05-24T09:05:02.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\TrainingPage.xbf">
       <PackagePath>TrainingPage.xbf</PackagePath>
-      <Modified>2022-02-26T10:08:44.772</Modified>
+      <Modified>2022-05-24T09:05:02.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -411,11 +451,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-26T10:08:45.244</Modified>
+      <Modified>2022-05-24T08:50:12.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\Core\CourtCoach.exe">
       <PackagePath>CourtCoach.exe</PackagePath>
-      <Modified>2022-02-26T10:08:45.827</Modified>
+      <Modified>2022-05-24T09:05:03.048</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -475,63 +515,63 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.Desktop.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.30035.0</Version>
+      <Version>14.0.30704.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

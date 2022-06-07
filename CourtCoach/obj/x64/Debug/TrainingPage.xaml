@@ -12,69 +12,37 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="9*"></ColumnDefinition>
-            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
 
-        <Grid Grid.Column="0" Grid.ColumnSpan="2">
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition Width="8*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition Height="5*"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-            </Grid.RowDefinitions>
-
-
-            <Image x:ConnectionId='3' x:Name="placehold1" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="4" Opacity="0.3"/>
-
-
-
-            <Grid Grid.Row="0" Grid.Column="0">
-                <Button x:ConnectionId='5' x:Name="btn_backToMainMenue" HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch" BorderThickness="0" Background="Transparent" 
-                    Margin="1,2,2,3"                                  >
-                    <Viewbox>
-                        <TextBlock Text="❮" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                    </Viewbox>
-                </Button>
-            </Grid>
-
-            <Grid Grid.Row="2" Grid.Column="0" ColumnSpan="2">
-                <Button x:ConnectionId='4' HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                    Margin="80,0,80,0" CornerRadius="10" BorderThickness="3"                     >
-                    <Viewbox MaxHeight="90">
-                        <TextBlock Text="Start shooting session"/>
-                    </Viewbox>
-                </Button>
-            </Grid>
-
+        <Grid Grid.Column="0" Grid.Row="0" Grid.RowSpan="3">
+            <Image x:ConnectionId='5' x:Name="shootBG" Stretch="UniformToFill" Opacity="0.9"/>
         </Grid>
 
-        <Grid Grid.Column="2">
-            
-            <Grid.RowDefinitions>
-                <RowDefinition Height="6*"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Image x:ConnectionId='2' x:Name="placeholder2" Stretch="Fill" Grid.RowSpan="4" Opacity="0.3"/>
-            <Grid Grid.Row="1">
-                <Button HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                    Margin="80,0,80,0" CornerRadius="10" BorderThickness="3">
-                    <Viewbox MaxHeight="90">
-                        <TextBlock Text="Add game stats"/>
-                    </Viewbox>
-                </Button>
-            </Grid>
-
+        <Grid Grid.Column="0" Grid.Row="1">
+            <local:ResponsiveButton x:ConnectionId='4' x:Name="uc_shooting" Text="Start shooting session"
+                                    MaxTextHeight="80" MinTextHeight="60" 
+                                    Margin="60,35,30,35"                                                        
+            />
         </Grid>
-        
-        
+
+        <Grid Grid.Column="1" Grid.Row="0" Grid.RowSpan="3">
+            <Image x:ConnectionId='3' x:Name="handleBG" Stretch="UniformToFill" Opacity="0.9"/>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="1">
+            <local:ResponsiveButton x:ConnectionId='2' x:Name="uc_handling" Text="Start handling drill"
+                                    MaxTextHeight="80" MinTextHeight="60" 
+                                    Margin="60,35,30,35"                                                            
+            />
+        </Grid>
+
+
     </Grid>
 </Page>
 

@@ -18,6 +18,7 @@
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <LangVersion>10</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -119,16 +120,25 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Control.cs" />
+    <Compile Include="MainMenue.xaml.cs">
+      <DependentUpon>MainMenue.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponsiveButton.xaml.cs">
+      <DependentUpon>ResponsiveButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResponsiveTextBlock.xaml.cs">
+      <DependentUpon>ResponsiveTextBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Session.cs" />
     <Compile Include="Shooting.xaml.cs">
       <DependentUpon>Shooting.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ShootingInput.xaml.cs">
-      <DependentUpon>ShootingInput.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="ShootingSession.cs" />
     <Compile Include="StatisticPage.xaml.cs">
       <DependentUpon>StatisticPage.xaml</DependentUpon>
     </Compile>
@@ -148,15 +158,23 @@
     <Content Include="Assets\BadgeLogo.scale-150.png" />
     <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\Basket.jpg" />
     <Content Include="Assets\Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg" />
     <Content Include="Assets\CourtCoach.png" />
+    <Content Include="Assets\Floater.jpg" />
     <Content Include="Assets\Fotolia_149218236_XL.jpg" />
+    <Content Include="Assets\handleOne.jpg" />
+    <Content Include="Assets\HandleTwo.jpg" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\LayupOne.jpg" />
+    <Content Include="Assets\LayupThree.jpg" />
+    <Content Include="Assets\LayupTwo.jpg" />
     <Content Include="Assets\placeholder.png" />
+    <Content Include="Assets\Shoot.jpg" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-125.png" />
     <Content Include="Assets\SmallTile.scale-150.png" />
@@ -210,15 +228,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="MainMenue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Shooting.xaml">
+    <Page Include="ResponsiveButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ShootingInput.xaml">
+    <Page Include="ResponsiveTextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shooting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

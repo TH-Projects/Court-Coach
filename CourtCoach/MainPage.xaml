@@ -9,60 +9,25 @@
     RequestedTheme="Light">
 
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"></RowDefinition>
-            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
         </Grid.RowDefinitions>
         
-        <Image Name="img" Stretch="Fill" Grid.RowSpan="2"  />
 
-        <Grid Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="1" Margin="10">
-                <Image x:Name="Logo" Stretch="Uniform"/>
-
-            </Grid>
-            
+        <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2">
+            <Frame x:Name="contentFrame"/>
         </Grid>
-
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
-                <ColumnDefinition Width="3*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="3*"></ColumnDefinition>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-
-            <Grid Grid.Column="1" Grid.Row="1">
-                <Button x:Name="btn_training" VerticalAlignment="Center" 
-                        HorizontalAlignment="Stretch" CornerRadius="15"
-                        BorderThickness="4" Click="btn_training_Click">
-                    <Viewbox MaxHeight="80" MinHeight="60" Margin="10">
-                        <TextBlock Text="Start training"/>
-                    </Viewbox>
-                </Button>
-            </Grid>
-
-            <Grid Grid.Column="3" Grid.Row="1">
-                <Button x:Name="btn_statistics" VerticalAlignment="Center" 
-                        HorizontalAlignment="Stretch" CornerRadius="15"
-                        BorderThickness="4" Click="btn_statistics_Click">
-                    <Viewbox MaxHeight="80" MinHeight="60" Margin="10">
-                        <TextBlock Text="Show statistics"/>
-                    </Viewbox>
-                </Button>
-            </Grid>
+        <Grid Grid.Column="0" Grid.Row="0">
+            <local:ResponsiveButton x:Name="page_return" Text="❮"
+                                    MaxTextHeight="60" Visibility="Collapsed" 
+                                    OnClick="page_return_OnClick"
+            />
         </Grid>
+        
     </Grid>
 </Page>

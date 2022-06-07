@@ -9,39 +9,89 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
-            <ColumnDefinition Width="3*"></ColumnDefinition>
-            <ColumnDefinition Width="3*"></ColumnDefinition>
-            <ColumnDefinition Width="3*"></ColumnDefinition>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition Height="9*"></RowDefinition>
-        </Grid.RowDefinitions>
         <Image x:Name="MainBG" Stretch="Fill" Grid.ColumnSpan="6" Grid.RowSpan="2" Opacity="0.5"></Image>
-        <Grid Grid.Row="0" Grid.Column="0">
-            <Button x:Name="btn_backToTrainingPage" HorizontalAlignment="Stretch"
-                    VerticalAlignment="Stretch" BorderThickness="0"
-                    Background="Transparent" Margin="1,2,2,3" Click="backToTrainingPage">
-                <Viewbox>
-                    <TextBlock Text="❮" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                </Viewbox>
-            </Button>
-        </Grid>
-        <Grid Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="2">
-            <local:ShootingInput Margin="0,20,0,20"/>
-        </Grid>
-        <Grid Grid.Column="5" Grid.RowSpan="2">
-            <Button x:Name="btn_EndSession" HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                    BorderThickness="3" Margin="0,0,10,0">
-                <Viewbox MaxHeight="70">
-                    <TextBlock Text="End session"></TextBlock>
-                </Viewbox>
-            </Button>
+        
+        <Grid Margin="20,30,20,30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"></RowDefinition>
+                <RowDefinition Height="5*"></RowDefinition>
+                <RowDefinition Height="5*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Grid.Row="0">
+                <local:ResponsiveTextBlock Text="Freethrow" MaxTextHeight="50" Margin="5"/>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="1">
+                <local:ResponsiveTextBlock Text="2-Pointer" MaxTextHeight="50" Margin="5"/>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="2">
+                <local:ResponsiveTextBlock Text="3-Pointer" MaxTextHeight="50" Margin="5"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="0">
+                <local:ResponsiveButton x:Name="uc_FreethrowHit" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Hit" Margin="10" OnClick="uc_FreethrowHit_OnClick" 
+            />
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <local:ResponsiveButton x:Name="uc_TwoPointHit" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Hit" Margin="10" OnClick="uc_TwoPointHit_OnClick"  
+            />
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="2">
+                <local:ResponsiveButton x:Name="uc_ThreePointHit" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Hit" Margin="10" OnClick="uc_ThreePointHit_OnClick"  
+            />
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0">
+                <local:ResponsiveButton x:Name="uc_FreethrowMiss" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Miss" Margin="10" OnClick="uc_FreethrowMiss_OnClick" 
+            />
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <local:ResponsiveButton x:Name="uc_TwoPointMiss" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Miss" Margin="10" OnClick="uc_TwoPointMiss_OnClick" 
+            />
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="2">
+                <local:ResponsiveButton x:Name="uc_ThreePointMiss" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Miss" Margin="10" OnClick="uc_ThreePointMiss_OnClick" 
+            />
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="0">
+                <local:ResponsiveTextBlock x:Name="FreethrowRate" MaxTextHeight="50" Margin="5"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="1">
+                <local:ResponsiveTextBlock x:Name="TwoPointRate" MaxTextHeight="50" Margin="5"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="2">
+                <local:ResponsiveTextBlock x:Name="ThreePointRate" MaxTextHeight="50" Margin="5"/>
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="1">
+                <local:ResponsiveButton x:Name="uc_startSession" Text="Start session"
+                                        Margin="20,5,20,5" OnClick="uc_startSession_OnClick"                     
+                />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="2">
+                <local:ResponsiveButton x:Name="uc_saveSession" Text="Save session"
+                                        Margin="20,5,20,5" OnClick="uc_saveSession_OnClick"                   
+                />
+            </Grid>
+            
+            
         </Grid>
 
+            
+                
+           
+           
+                
+            
+        
     </Grid>
 </Page>

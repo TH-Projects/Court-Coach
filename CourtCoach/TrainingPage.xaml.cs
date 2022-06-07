@@ -23,22 +23,27 @@ namespace CourtCoach
     /// </summary>
     public sealed partial class TrainingPage : Page
     {
-        static BitmapImage PlaceholderBG = new BitmapImage(new Uri("ms-appx:///Assets/placeholder.png"));
+        static BitmapImage ShootingBG = new BitmapImage(new Uri("ms-appx:///Assets/Shoot.jpg"));
+        static BitmapImage HandleBG = new BitmapImage(new Uri("ms-appx:///Assets/handleOne.jpg"));
+        private Control _control;
+
+
         public TrainingPage()
         {
             this.InitializeComponent();
-            placehold1.Source=PlaceholderBG;
-            placeholder2.Source=PlaceholderBG;
+            shootBG.Source=ShootingBG;
+            handleBG.Source=HandleBG;
+            _control = Control.Instance;
+        }
+        private void uc_shooting_OnClick(object sender, EventArgs e)
+        {
+            _control.Navigate(typeof(Shooting));
         }
 
-        private void btn_backToMainMenue_Click(object sender, RoutedEventArgs e)
+        private void uc_handling_OnClick(object sender, EventArgs e)
         {
-            this.Content= new MainPage();   
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Content = new Shooting();
+            //Handling page missing yet
+            _control.Navigate(typeof(MainPage));
         }
     }
 }
