@@ -23,12 +23,12 @@ namespace CourtCoach
     /// </summary>
     public sealed partial class Shooting : Page
     {
-        static BitmapImage PlaceholderBG = new BitmapImage(new Uri("ms-appx:///Assets/Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg"));
+        static BitmapImage BG = new BitmapImage(new Uri("ms-appx:///Assets/Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg"));
         private Control _control;
         public Shooting()
         {
             this.InitializeComponent();
-            MainBG.Source = PlaceholderBG;
+            MainBG.Source = BG;
             _control = Control.Instance;
             DisableAll();
             ResetRate();
@@ -80,6 +80,7 @@ namespace CourtCoach
 
         private void uc_saveSession_OnClick(object sender, EventArgs e)
         {
+            _control.EndShootingSession();
             DisableAll();
             ResetRate();
         }

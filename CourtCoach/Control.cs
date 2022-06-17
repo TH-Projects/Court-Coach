@@ -9,9 +9,15 @@ namespace CourtCoach
     public sealed class Control
     {
         private static readonly Control instance = new Control();
-        private MainPage mainPage;
         private List<Session> sessions = new List<Session>();
+        private List<ShootingSession> shootingSessions= new List<ShootingSession>();
+        private List<HandlingSession> handlingSessions = new List<HandlingSession>();
+        private MainPage _mainPage;
         private ShootingSession _current;
+        private DataHandler _dataHandler;
+        private string statsType;
+        private int currentStatsPageNum = 0;
+        
     
         public static Control Instance
         {
@@ -20,14 +26,27 @@ namespace CourtCoach
                return instance;
             }
         }
+        
+        public string StatsType { get { return statsType; } set { statsType = value; } }
+
+        public int CurrentStatsPageNum { get { return currentStatsPageNum; } set { currentStatsPageNum = value; } }
+
+        public List<ShootingSession> ShootingSessions { get { return shootingSessions; } }
         public Control()
         {
-            mainPage = MainPage.Instance;
+            _mainPage = MainPage.Instance;
+            _dataHandler = DataHandler.Instance;
+            
         }
 
         public void Navigate(Type page)
         {
-            mainPage.NavigateTo(page);
+            _mainPage.NavigateTo(page);
+            
+        }
+        public async Task LoadSessionData()
+        {
+            sessions = await _dataHandler.LoadData();
         }
 
         public void AddShootingSession()
@@ -37,9 +56,43 @@ namespace CourtCoach
             sessions.Add(cur);
         }
 
+        public void GetShootingValues(ShootingStatsTable table)
+        {
+            table.TwoPointAttempts = shootingSessions[currentStatsPageNum].TwoPointAttempts;
+            table.TwoPointHits = shootingSessions[currentStatsPageNum].TwoPointHits;
+            table.ThreePointAttempts = shootingSessions[currentStatsPageNum].ThreePointAttempts;
+            table.ThreePointHits = shootingSessions[currentStatsPageNum].ThreePointHits;
+            table.FreethrowAttempts = shootingSessions[currentStatsPageNum].FreethrowAttempts;
+            table.FreethrowHits = shootingSessions[currentStatsPageNum].FreethrowHits;
+        }
+
         public void EndShootingSession()
         {
+            _current.EndTime = DateTime.Now;
+            _dataHandler.SaveData(sessions);
+            _current = null;
+        }
 
+        public void SplitSessionList()
+        {
+            shootingSessions.Clear();
+            handlingSessions.Clear();
+
+            foreach(Session session in sessions)
+            {
+                if (session.GetType() == typeof(ShootingSession))
+                {
+                    shootingSessions.Add(session as ShootingSession);
+                }
+                else if(session.GetType() == typeof(HandlingSession))
+                {
+                    handlingSessions.Add(session as HandlingSession);
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
         }
 
         public void incCounter(string kind, bool hit)

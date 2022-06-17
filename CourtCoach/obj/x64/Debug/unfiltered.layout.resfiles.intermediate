@@ -75,6 +75,8 @@ MainPage.xbf
 ResponsiveButton.xbf
 ResponsiveTextBlock.xbf
 Shooting.xbf
+ShootingStatsTable.xbf
 StatisticPage.xbf
+StatsFrame.xbf
 TrainingPage.xbf
 Properties\Default.rd.xml

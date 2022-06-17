@@ -48,7 +48,7 @@
       <RootProperty Name="MaxTextHeight" />
       <RootProperty Name="MinTextHeight" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Visibility" />
+      <RootProperty Name="BorderThickness" />
       <RootEvent Name="OnClick" />
     </RootType>
     <RootType FullName="CourtCoach.MainMenue" />
@@ -82,7 +82,9 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="CourtCoach.Shooting" />
+    <RootType FullName="CourtCoach.ShootingStatsTable" />
     <RootType FullName="CourtCoach.StatisticPage" />
+    <RootType FullName="CourtCoach.StatsFrame" />
     <RootType FullName="CourtCoach.TrainingPage" />
   </Roots.RootTypes>
 </Roots>

@@ -23,11 +23,12 @@
             <Frame x:ConnectionId='3' x:Name="contentFrame"/>
         </Grid>
         <Grid Grid.Column="0" Grid.Row="0">
-            <local:ResponsiveButton x:ConnectionId='2' x:Name="page_return" Text="❮"
-                                    MaxTextHeight="60" Visibility="Collapsed" 
-                                                                 
+            <local:ResponsiveButton x:ConnectionId='2' x:Name="btn_page_return" Text="❮"
+                                    MaxTextHeight="60"                              
+                                    BorderThickness="2"
             />
         </Grid>
+        
         
     </Grid>
 </Page>

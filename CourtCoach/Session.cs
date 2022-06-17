@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace CourtCoach
 {
+    [XmlInclude(typeof(ShootingSession))]
+    //[XmlInclude(typeof(HandlingSession))] Todo!!!
     public abstract class Session
     {
-        protected DateTime startTime;
-        protected DateTime endTime;
         
-        public DateTime StartTime { get { return StartTime; } }
-        public DateTime EndTime { get { return EndTime; } }
+        public DateTime StartTime { get; set; }
+   
+        public DateTime EndTime { get; set; }
 
-        public abstract void EndSession();
+        
+
+        //public abstract void EndSession();
 
         
     }

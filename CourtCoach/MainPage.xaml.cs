@@ -23,14 +23,30 @@ namespace CourtCoach
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private Control _control;
         public static MainPage Instance { get; private set; }
 
         public MainPage()
         {
             this.InitializeComponent();
             Instance = this;
+            _control = Control.Instance;
+            contentFrame.Navigated += OnNavigated;
             contentFrame.Navigate(typeof(MainMenue));
+            this.Loading += OnLoading;
         }
+        private async void OnLoading(object sender,object arg)
+        {
+            await _control.LoadSessionData();
+        }
+        private void OnNavigated(object sender, NavigationEventArgs args)
+        {
+            if (args.SourcePageType == typeof(MainMenue))
+                btn_page_return.Visibility = Visibility.Collapsed;
+            else
+                btn_page_return.Visibility = Visibility.Visible;
+        }
+
         public void NavigateTo(Type page)
         {
             contentFrame.Navigate(page);

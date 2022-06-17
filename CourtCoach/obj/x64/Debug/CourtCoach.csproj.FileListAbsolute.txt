@@ -158,3 +158,13 @@ C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug
 C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\ResponsiveTextBlock.xaml
 C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\ResponsiveTextBlock.xbf
 C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ResponsiveTextBlock.xbf
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\StatsFrame.xbf
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\StatsFrame.g.i.cs
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\StatsFrame.g.cs
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\StatsFrame.xaml
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\StatsFrame.xbf
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\ShootingStatsTable.g.i.cs
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\ShootingStatsTable.g.cs
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\ShootingStatsTable.xaml
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\ShootingStatsTable.xbf
+C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ShootingStatsTable.xbf

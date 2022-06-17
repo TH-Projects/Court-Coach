@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace CourtCoach
 {
+    [XmlRoot(ElementName = "ShootingSession")]
     public class ShootingSession : Session
     {
         private int _twoPointAttempts = 0;
@@ -14,8 +16,7 @@ namespace CourtCoach
         private int _twoPointHits = 0;
         private int _freethrowHits = 0;
         private int _threePointHits = 0;
-        private int sessionCount;
-        private static int nextSessionNum = 0;
+        
 
         public int TwoPointAttempts { get { return _twoPointAttempts; } set { _twoPointAttempts = value; } }
         public int FreethrowAttempts { get { return _freethrowAttempts; } set { _freethrowAttempts = value; } }
@@ -25,14 +26,9 @@ namespace CourtCoach
         public int ThreePointHits { get { return _threePointHits; } set { _threePointHits = value; } }
         public ShootingSession()
         {
-            startTime = DateTime.Now;
-            sessionCount = nextSessionNum++;
-            nextSessionNum++;
+            StartTime = DateTime.Now;
         }
 
-        public override void EndSession()
-        {
-            endTime = DateTime.Now;
-        }
+        
     }
 }

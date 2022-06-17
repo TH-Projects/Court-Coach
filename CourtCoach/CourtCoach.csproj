@@ -121,6 +121,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Control.cs" />
+    <Compile Include="DataHandler.cs" />
+    <Compile Include="HandlingSession.cs" />
     <Compile Include="MainMenue.xaml.cs">
       <DependentUpon>MainMenue.xaml</DependentUpon>
     </Compile>
@@ -135,12 +137,19 @@
       <DependentUpon>ResponsiveTextBlock.xaml</DependentUpon>
     </Compile>
     <Compile Include="Session.cs" />
+    <Compile Include="SessionData.cs" />
     <Compile Include="Shooting.xaml.cs">
       <DependentUpon>Shooting.xaml</DependentUpon>
     </Compile>
     <Compile Include="ShootingSession.cs" />
+    <Compile Include="ShootingStatsTable.xaml.cs">
+      <DependentUpon>ShootingStatsTable.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StatisticPage.xaml.cs">
       <DependentUpon>StatisticPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatsFrame.xaml.cs">
+      <DependentUpon>StatsFrame.xaml</DependentUpon>
     </Compile>
     <Compile Include="TrainingPage.xaml.cs">
       <DependentUpon>TrainingPage.xaml</DependentUpon>
@@ -248,7 +257,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ShootingStatsTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StatisticPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StatsFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

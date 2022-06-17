@@ -10,7 +10,7 @@
 
     <Grid>
         <Image x:ConnectionId='2' x:Name="MainBG" Stretch="Fill" Grid.ColumnSpan="6" Grid.RowSpan="2" Opacity="0.5"></Image>
-        
+
         <Grid Margin="20,30,20,30">
             <Grid.RowDefinitions>
                 <RowDefinition Height="5*"></RowDefinition>
@@ -82,17 +82,7 @@
                                         Margin="20,5,20,5"                                                    
                 />
             </Grid>
-            
-            
         </Grid>
-
-            
-                
-           
-           
-                
-            
-        
     </Grid>
 </Page>
 
