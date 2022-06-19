@@ -11,27 +11,34 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=234238 dokumentiert.
 
 namespace CourtCoach
 {
-    /// <summary>
-    /// Eine leere Seite, die eigenständig verwendet oder zu der innerhalb eines Rahmens navigiert werden kann.
-    /// </summary>
     public sealed partial class StatsFrame : Page
     {
+        private static BitmapImage s_statsFrameBG = new BitmapImage(new Uri("ms-appx:///Assets/BasketBG.jpg"));
         private Control _control;
         public StatsFrame()
         {
             this.InitializeComponent();
             _control = Control.Instance;
+            img_background.Source = s_statsFrameBG;
             switch (_control.StatsType)
             {
                 case "S":
                     fr_content.Navigate(typeof(ShootingStatsTable));
                     break;
+                case "H":
+                    //nav to HandlingStatsTable
+                    btn_NextTable.IsEnabled = false;
+                    btn_PreviousTable.IsEnabled = false;
+                    break;
+                default:
+                    throw new Exception();
             }
             UpdateButtons();
         }

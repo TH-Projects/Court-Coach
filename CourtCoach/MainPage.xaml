@@ -18,17 +18,15 @@
             <RowDefinition Height="8*"></RowDefinition>
         </Grid.RowDefinitions>
         
-
         <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2">
-            <Frame x:Name="contentFrame"/>
+            <Frame x:Name="fr_content"/>
         </Grid>
+        
         <Grid Grid.Column="0" Grid.Row="0">
-            <local:ResponsiveButton x:Name="btn_page_return" Text="❮"
-                                    MaxTextHeight="60" OnClick="page_return_OnClick"
-                                    BorderThickness="2"
+            <local:ResponsiveButton x:Name="btn_pageReturn" Text="❮"
+                                    MaxTextHeight="60" OnClick="btn_pageReturn_OnClick"
+                                    BorderThickness="1"
             />
         </Grid>
-        
-        
     </Grid>
 </Page>

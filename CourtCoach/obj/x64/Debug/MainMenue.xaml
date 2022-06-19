@@ -14,7 +14,7 @@
             <RowDefinition Height="4*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Image x:ConnectionId='2' Name="img" Stretch="Fill" Grid.RowSpan="2"  />
+        <Image x:ConnectionId='2' Name="img_background" Stretch="Fill" Grid.RowSpan="2"  />
 
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
@@ -23,10 +23,8 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="1" Margin="10">
-                <Image x:ConnectionId='5' x:Name="Logo" Stretch="Uniform"/>
-
+                <Image x:ConnectionId='5' x:Name="img_logo" Stretch="Uniform"/>
             </Grid>
-
         </Grid>
 
         <Grid Grid.Row="1">
@@ -45,14 +43,14 @@
 
             <Grid Grid.Column="1" Grid.Row="1">
                 <local:ResponsiveButton x:ConnectionId='4' x:Name="uc_training" Text="Start training"
-                                        MaxTextHeight="80" MinTextHeight="45" 
+                                        MaxTextHeight="80" MinTextHeight="30" 
                                         Margin="0,35,0,35"                                 
                 />
             </Grid>
 
             <Grid Grid.Column="3" Grid.Row="1">
                 <local:ResponsiveButton x:ConnectionId='3' x:Name="uc_stats" Text="Show statistics" 
-                                        MaxTextHeight="80" MinTextHeight="45" 
+                                        MaxTextHeight="80" MinTextHeight="30" 
                                         Margin="0,35,0,35"                            
                 />
             </Grid>

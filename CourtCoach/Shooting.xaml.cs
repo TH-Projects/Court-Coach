@@ -23,17 +23,18 @@ namespace CourtCoach
     /// </summary>
     public sealed partial class Shooting : Page
     {
-        static BitmapImage BG = new BitmapImage(new Uri("ms-appx:///Assets/Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg"));
+        private static BitmapImage s_background = new BitmapImage(new Uri("ms-appx:///Assets/Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg"));
         private Control _control;
+
         public Shooting()
         {
             this.InitializeComponent();
-            MainBG.Source = BG;
+            img_mainBackground.Source = s_background;
             _control = Control.Instance;
             DisableAll();
-            ResetRate();
-            
+            ResetRate();  
         }
+
         private string PrintHitRate(int att, int hits)
         {
             if (att != 0)
@@ -42,80 +43,80 @@ namespace CourtCoach
                 return String.Format("0/0, 0%");
         }
 
-        private void uc_FreethrowHit_OnClick(object sender, EventArgs e)
+        private void EnableAll()
         {
-            _control.incCounter("free", true);
-            FreethrowRate.Text = PrintHitRate(_control.GetRate("FA"), _control.GetRate("FH"));
+            btn_freethrowHit.IsEnabled = true;
+            btn_freethrowMiss.IsEnabled = true;
+            btn_twoPointHit.IsEnabled = true;
+            btn_twoPointMiss.IsEnabled = true;
+            btn_threePointMiss.IsEnabled = true;
+            btn_threePointHit.IsEnabled = true;
         }
 
-        private void uc_TwoPointHit_OnClick(object sender, EventArgs e)
+        private void DisableAll()
         {
-            _control.incCounter("two", true);
-            TwoPointRate.Text = PrintHitRate(_control.GetRate("2A"), _control.GetRate("2H"));
+            btn_freethrowHit.IsEnabled = false;
+            btn_freethrowMiss.IsEnabled = false;
+            btn_twoPointHit.IsEnabled = false;
+            btn_twoPointMiss.IsEnabled = false;
+            btn_threePointMiss.IsEnabled = false;
+            btn_threePointHit.IsEnabled = false;
         }
 
-        private void uc_ThreePointHit_OnClick(object sender, EventArgs e)
+        private void ResetRate()
         {
-            _control.incCounter("three", true);
-            ThreePointRate.Text = PrintHitRate(_control.GetRate("3A"), _control.GetRate("3H"));
+            txt_freethrowRate.Text = PrintHitRate(0, 0);
+            txt_twoPointRate.Text = PrintHitRate(0, 0);
+            txt_threePointRate.Text = PrintHitRate(0, 0);
         }
 
-        private void uc_FreethrowMiss_OnClick(object sender, EventArgs e)
+        private void btn_startSession_OnClick(object sender, EventArgs e)
         {
-            _control.incCounter("free", false);
-            FreethrowRate.Text = PrintHitRate(_control.GetRate("FA"), _control.GetRate("FH"));
+            _control.AddShootingSession();
+            EnableAll();
         }
 
-        private void uc_TwoPointMiss_OnClick(object sender, EventArgs e)
-        {
-            _control.incCounter("two", false);
-            TwoPointRate.Text = PrintHitRate(_control.GetRate("2A"), _control.GetRate("2H"));
-        }
-
-        private void uc_ThreePointMiss_OnClick(object sender, EventArgs e)
-        {
-            _control.incCounter("three", false);
-            ThreePointRate.Text = PrintHitRate(_control.GetRate("3A"), _control.GetRate("3H"));
-        }
-
-        private void uc_saveSession_OnClick(object sender, EventArgs e)
+        private void btn_saveSession_OnClick(object sender, EventArgs e)
         {
             _control.EndShootingSession();
             DisableAll();
             ResetRate();
         }
 
-        private void uc_startSession_OnClick(object sender, EventArgs e)
+        private void btn_threePointMiss_OnClick(object sender, EventArgs e)
         {
-            _control.AddShootingSession();
-            EnableAll();
+            _control.incCounter("three", false);
+            txt_threePointRate.Text = PrintHitRate(_control.GetRate("3A"), _control.GetRate("3H"));
         }
 
-        private void EnableAll()
+        private void btn_twoPointMiss_OnClick(object sender, EventArgs e)
         {
-            uc_FreethrowHit.IsEnabled = true;
-            uc_FreethrowMiss.IsEnabled = true;
-            uc_TwoPointHit.IsEnabled = true;
-            uc_TwoPointMiss.IsEnabled = true;
-            uc_ThreePointMiss.IsEnabled = true;
-            uc_ThreePointHit.IsEnabled = true;
+            _control.incCounter("two", false);
+            txt_twoPointRate.Text = PrintHitRate(_control.GetRate("2A"), _control.GetRate("2H"));
         }
 
-        private void DisableAll()
+        private void btn_freethrowMiss_OnClick(object sender, EventArgs e)
         {
-            uc_FreethrowHit.IsEnabled = false;
-            uc_FreethrowMiss.IsEnabled = false;
-            uc_TwoPointHit.IsEnabled = false;
-            uc_TwoPointMiss.IsEnabled = false;
-            uc_ThreePointMiss.IsEnabled = false;
-            uc_ThreePointHit.IsEnabled = false;
+            _control.incCounter("free", false);
+            txt_freethrowRate.Text = PrintHitRate(_control.GetRate("FA"), _control.GetRate("FH"));
         }
-        private void ResetRate()
+
+        private void btn_threePointHit_OnClick(object sender, EventArgs e)
         {
-            FreethrowRate.Text = PrintHitRate(0, 0);
-            TwoPointRate.Text = PrintHitRate(0, 0);
-            ThreePointRate.Text = PrintHitRate(0, 0);
+            _control.incCounter("three", true);
+            txt_threePointRate.Text = PrintHitRate(_control.GetRate("3A"), _control.GetRate("3H"));
         }
-        
+
+        private void btn_twoPointHit_OnClick(object sender, EventArgs e)
+        {
+            _control.incCounter("two", true);
+            txt_twoPointRate.Text = PrintHitRate(_control.GetRate("2A"), _control.GetRate("2H"));
+        }
+
+        private void btn_freethrowHit_OnClick(object sender, EventArgs e)
+        {
+            _control.incCounter("free", true);
+            txt_freethrowRate.Text = PrintHitRate(_control.GetRate("FA"), _control.GetRate("FH"));
+        }
     }
 }

@@ -18,28 +18,27 @@ using Windows.UI.Xaml.Navigation;
 
 namespace CourtCoach
 {
-    /// <summary>
-    /// Eine leere Seite, die eigenständig verwendet oder zu der innerhalb eines Rahmens navigiert werden kann.
-    /// </summary>
     public sealed partial class StatisticPage : Page
     {
-        static BitmapImage PlaceholderBG = new BitmapImage(new Uri("ms-appx:///Assets/Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg"));
+        private static BitmapImage s_background = new BitmapImage(new Uri("ms-appx:///Assets/LayupOne.jpg"));
         private Control _control;
         public StatisticPage()
         {
             this.InitializeComponent();
+            img_background.Source = s_background;
             _control = Control.Instance;
+            _control.SplitSessionList();
         }
 
-        private void uc_handlingStats_OnClick(object sender, EventArgs e)
+        private void btn_shootingStats_OnClick(object sender, EventArgs e)
         {
-            _control.StatsType = "H";
+            _control.StatsType = "S";
             _control.Navigate(typeof(StatsFrame));
         }
 
-        private void uc_shootingStats_OnClick(object sender, EventArgs e)
+        private void btn_handlingStats_OnClick(object sender, EventArgs e)
         {
-            _control.StatsType = "S";
+            _control.StatsType = "H";
             _control.Navigate(typeof(StatsFrame));
         }
     }

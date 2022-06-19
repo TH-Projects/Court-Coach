@@ -6,28 +6,32 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="Transparent"
+    Foreground="White">
 
     <Grid>
+     
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="8*"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Row="0" Grid.Column="0">
-
+        
+        <Grid Grid.Row="0" Grid.Column="1">
+            <local:ResponsiveTextBlock x:ConnectionId='9' x:Name="txt_startTime" Text="No data loaded" MaxTextHeight="50" 
+                                       Margin="5"/>
         </Grid>
-        <Grid Grid.Row="0" Grid.Column="0">
-
+        <Grid Grid.Row="0" Grid.Column="2">
+            <local:ResponsiveTextBlock x:ConnectionId='8' x:Name="txt_endTime" Text="No data loaded" MaxTextHeight="50" 
+                                       Margin="5"/>
         </Grid>
 
-
-
-
-        <Grid Grid.Row="1" Grid.ColumnSpan="3">
+        <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
@@ -40,43 +44,44 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Column="0" Grid.Row="0">
-                <local:ResponsiveTextBlock Text="Freethrows" MaxTextHeight="30" 
+                <local:ResponsiveTextBlock Text="Freethrows" MaxTextHeight="60" 
                                        Margin="5"/>
             </Grid>
             <Grid Grid.Column="0" Grid.Row="1">
-                <local:ResponsiveTextBlock Text="2-Pointers" MaxTextHeight="30" 
+                <local:ResponsiveTextBlock Text="2-Pointers" MaxTextHeight="60" 
                                        Margin="5"/>
             </Grid>
             <Grid Grid.Column="0" Grid.Row="3">
-                <local:ResponsiveTextBlock Text="3-Pointers" MaxTextHeight="30" 
+                <local:ResponsiveTextBlock Text="3-Pointers" MaxTextHeight="60" 
                                        Margin="5"/>
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0">
-                <local:ResponsiveTextBlock x:ConnectionId='7' x:Name="FreethrowTries" Text="No data loaded" MaxTextHeight="40" 
+                <local:ResponsiveTextBlock x:ConnectionId='7' x:Name="txt_freethrowTries" Text="No data loaded" MaxTextHeight="50" 
                                        Margin="5"/>
             </Grid>
             <Grid Grid.Column="1" Grid.Row="1">
-                <local:ResponsiveTextBlock x:ConnectionId='6' x:Name="TwoPointTries" Text="No data loaded" MaxTextHeight="40" 
+                <local:ResponsiveTextBlock x:ConnectionId='6' x:Name="txt_twoPointTries" Text="No data loaded" MaxTextHeight="50" 
                                        Margin="5"/>
             </Grid>
             <Grid Grid.Column="1" Grid.Row="3">
-                <local:ResponsiveTextBlock x:ConnectionId='5' x:Name="ThreePointTries" Text="No data loaded" MaxTextHeight="40" 
+                <local:ResponsiveTextBlock x:ConnectionId='5' x:Name="txt_threePointTries" Text="No data loaded" MaxTextHeight="50" 
                                        Margin="5"/>
             </Grid>
 
             <Grid Grid.Column="2" Grid.Row="0">
-                <local:ResponsiveTextBlock x:ConnectionId='4' x:Name="FreethrowRate" Text="No data loaded" MaxTextHeight="40" 
+                <local:ResponsiveTextBlock x:ConnectionId='4' x:Name="txt_freethrowRate" Text="No data loaded" MaxTextHeight="50" 
                                        Margin="5"/>
             </Grid>
             <Grid Grid.Column="2" Grid.Row="1">
-                <local:ResponsiveTextBlock x:ConnectionId='3' x:Name="TwoPointRate" Text="No data loaded" MaxTextHeight="40" 
+                <local:ResponsiveTextBlock x:ConnectionId='3' x:Name="txt_twoPointRate" Text="No data loaded" MaxTextHeight="50" 
                                        Margin="5"/>
             </Grid>
             <Grid Grid.Column="2" Grid.Row="3">
-                <local:ResponsiveTextBlock x:ConnectionId='2' x:Name="ThreePointRate" Text="No data loaded" MaxTextHeight="40" 
+                <local:ResponsiveTextBlock x:ConnectionId='2' x:Name="txt_threePointRate" Text="No data loaded" MaxTextHeight="50" 
                                        Margin="5"/>
             </Grid>
+            
         </Grid>
     </Grid>
 </Page>

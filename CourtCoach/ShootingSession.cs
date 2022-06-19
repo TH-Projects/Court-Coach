@@ -16,7 +16,6 @@ namespace CourtCoach
         private int _twoPointHits = 0;
         private int _freethrowHits = 0;
         private int _threePointHits = 0;
-        
 
         public int TwoPointAttempts { get { return _twoPointAttempts; } set { _twoPointAttempts = value; } }
         public int FreethrowAttempts { get { return _freethrowAttempts; } set { _freethrowAttempts = value; } }
@@ -29,6 +28,5 @@ namespace CourtCoach
             StartTime = DateTime.Now;
         }
 
-        
     }
 }

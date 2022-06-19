@@ -12,7 +12,7 @@ namespace CourtCoach
     {
         [XmlArray("Sessions")]
         [XmlArrayItem("ShootingSession", typeof(ShootingSession))]
-        //[XmlArrayItem("HandlingSession", typeof(HandlingSession))] Todo!!!
+        [XmlArrayItem("HandlingSession", typeof(HandlingSession))]
         public List<Session> Sessions { get; set; }
     }
 }

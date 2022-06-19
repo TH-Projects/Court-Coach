@@ -8,18 +8,11 @@ using System.Xml.Serialization;
 namespace CourtCoach
 {
     [XmlInclude(typeof(ShootingSession))]
-    //[XmlInclude(typeof(HandlingSession))] Todo!!!
+    [XmlInclude(typeof(HandlingSession))] 
     public abstract class Session
     {
-        
         public DateTime StartTime { get; set; }
-   
         public DateTime EndTime { get; set; }
-
-        
-
-        //public abstract void EndSession();
-
-        
+  
     }
 }

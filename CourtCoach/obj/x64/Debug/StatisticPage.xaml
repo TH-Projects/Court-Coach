@@ -21,20 +21,20 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="2">
-            <Image x:ConnectionId='4' x:Name="BG" Stretch="UniformToFill" Opacity="0.9"/>
+            <Image x:ConnectionId='4' x:Name="img_background" Stretch="UniformToFill" Opacity="0.9"/>
         </Grid>
 
         <Grid Grid.Column="0" Grid.Row="1">
-            <local:ResponsiveButton x:ConnectionId='3' x:Name="uc_shootingStats" Text="Show shooting statistics"
+            <local:ResponsiveButton x:ConnectionId='3' x:Name="btn_shootingStats" Text="Show shooting statistics"
                                     MaxTextHeight="80" MinTextHeight="60" 
-                                    Margin="45,35,45,35"                                                            
+                                    Margin="45,35,45,35"                                                             
             />
         </Grid>
 
         <Grid Grid.Column="1" Grid.Row="1">
-            <local:ResponsiveButton x:ConnectionId='2' x:Name="uc_handlingStats" Text="Show handling statistics"
+            <local:ResponsiveButton x:ConnectionId='2' x:Name="btn_handlingStats" Text="Show handling statistics"
                                     MaxTextHeight="80" MinTextHeight="60" 
-                                    Margin="45,35,45,35"                                                                 
+                                    Margin="45,35,45,35"                                                                  
             />
         </Grid>
 

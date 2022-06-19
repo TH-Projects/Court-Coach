@@ -9,7 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image x:Name="MainBG" Stretch="Fill" Grid.ColumnSpan="6" Grid.RowSpan="2" Opacity="0.5"></Image>
+        
+        <Image x:Name="img_mainBackground" Stretch="Fill" Grid.ColumnSpan="6" Grid.RowSpan="2" Opacity="0.5"></Image>
 
         <Grid Margin="20,30,20,30">
             <Grid.RowDefinitions>
@@ -34,52 +35,52 @@
                 <local:ResponsiveTextBlock Text="3-Pointer" MaxTextHeight="50" Margin="5"/>
             </Grid>
             <Grid Grid.Column="1" Grid.Row="0">
-                <local:ResponsiveButton x:Name="uc_FreethrowHit" MaxTextHeight="80" MinTextHeight="50"
-                                        Text="Hit" Margin="10" OnClick="uc_FreethrowHit_OnClick" 
+                <local:ResponsiveButton x:Name="btn_freethrowHit" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Hit" Margin="10" OnClick="btn_freethrowHit_OnClick" 
             />
             </Grid>
             <Grid Grid.Column="1" Grid.Row="1">
-                <local:ResponsiveButton x:Name="uc_TwoPointHit" MaxTextHeight="80" MinTextHeight="50"
-                                        Text="Hit" Margin="10" OnClick="uc_TwoPointHit_OnClick"  
+                <local:ResponsiveButton x:Name="btn_twoPointHit" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Hit" Margin="10" OnClick="btn_twoPointHit_OnClick"  
             />
             </Grid>
             <Grid Grid.Column="1" Grid.Row="2">
-                <local:ResponsiveButton x:Name="uc_ThreePointHit" MaxTextHeight="80" MinTextHeight="50"
-                                        Text="Hit" Margin="10" OnClick="uc_ThreePointHit_OnClick"  
+                <local:ResponsiveButton x:Name="btn_threePointHit" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Hit" Margin="10" OnClick="btn_threePointHit_OnClick"  
             />
             </Grid>
             <Grid Grid.Column="2" Grid.Row="0">
-                <local:ResponsiveButton x:Name="uc_FreethrowMiss" MaxTextHeight="80" MinTextHeight="50"
-                                        Text="Miss" Margin="10" OnClick="uc_FreethrowMiss_OnClick" 
+                <local:ResponsiveButton x:Name="btn_freethrowMiss" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Miss" Margin="10" OnClick="btn_freethrowMiss_OnClick" 
             />
             </Grid>
             <Grid Grid.Column="2" Grid.Row="1">
-                <local:ResponsiveButton x:Name="uc_TwoPointMiss" MaxTextHeight="80" MinTextHeight="50"
-                                        Text="Miss" Margin="10" OnClick="uc_TwoPointMiss_OnClick" 
+                <local:ResponsiveButton x:Name="btn_twoPointMiss" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Miss" Margin="10" OnClick="btn_twoPointMiss_OnClick" 
             />
             </Grid>
             <Grid Grid.Column="2" Grid.Row="2">
-                <local:ResponsiveButton x:Name="uc_ThreePointMiss" MaxTextHeight="80" MinTextHeight="50"
-                                        Text="Miss" Margin="10" OnClick="uc_ThreePointMiss_OnClick" 
+                <local:ResponsiveButton x:Name="btn_threePointMiss" MaxTextHeight="80" MinTextHeight="50"
+                                        Text="Miss" Margin="10" OnClick="btn_threePointMiss_OnClick" 
             />
             </Grid>
             <Grid Grid.Column="3" Grid.Row="0">
-                <local:ResponsiveTextBlock x:Name="FreethrowRate" MaxTextHeight="50" Margin="5"/>
+                <local:ResponsiveTextBlock x:Name="txt_freethrowRate" MaxTextHeight="50" Margin="5"/>
             </Grid>
             <Grid Grid.Column="3" Grid.Row="1">
-                <local:ResponsiveTextBlock x:Name="TwoPointRate" MaxTextHeight="50" Margin="5"/>
+                <local:ResponsiveTextBlock x:Name="txt_twoPointRate" MaxTextHeight="50" Margin="5"/>
             </Grid>
             <Grid Grid.Column="3" Grid.Row="2">
-                <local:ResponsiveTextBlock x:Name="ThreePointRate" MaxTextHeight="50" Margin="5"/>
+                <local:ResponsiveTextBlock x:Name="txt_threePointRate" MaxTextHeight="50" Margin="5"/>
             </Grid>
             <Grid Grid.Row="4" Grid.Column="1">
-                <local:ResponsiveButton x:Name="uc_startSession" Text="Start session"
-                                        Margin="20,5,20,5" OnClick="uc_startSession_OnClick"                     
+                <local:ResponsiveButton x:Name="btn_startSession" Text="Start session"
+                                        Margin="20,5,20,5" OnClick="btn_startSession_OnClick"                     
                 />
             </Grid>
             <Grid Grid.Row="4" Grid.Column="2">
-                <local:ResponsiveButton x:Name="uc_saveSession" Text="Save session"
-                                        Margin="20,5,20,5" OnClick="uc_saveSession_OnClick"                   
+                <local:ResponsiveButton x:Name="btn_saveSession" Text="Save session"
+                                        Margin="20,5,20,5" OnClick="btn_saveSession_OnClick"                   
                 />
             </Grid>
         </Grid>

@@ -23,21 +23,20 @@ namespace CourtCoach
     /// </summary>
     public sealed partial class MainMenue : Page
     {
-        static BitmapImage MainBG = new BitmapImage(new Uri("ms-appx:///Assets/Fotolia_149218236_XL.jpg"));
-        static BitmapImage MainLogo = new BitmapImage(new Uri("ms-appx:///Assets/CourtCoach.png"));
+        private static BitmapImage s_mainBackground = new BitmapImage(new Uri("ms-appx:///Assets/Fotolia_149218236_XL.jpg"));
+        private static BitmapImage s_mainLogo = new BitmapImage(new Uri("ms-appx:///Assets/CourtCoach.png"));
         private Control _control;
         public MainMenue()
         {
             this.InitializeComponent();
-            Logo.Source = MainLogo;
-            img.Source = MainBG;
+            img_background.Source = s_mainBackground;
+            img_logo.Source = s_mainLogo;
             _control = Control.Instance;
         }
         private void uc_stats_OnClick(object sender, EventArgs e)
         {
             _control.Navigate(typeof(StatisticPage));
         }
-
         private void uc_training_OnClick(object sender, EventArgs e)
         {
             _control.Navigate(typeof(TrainingPage));

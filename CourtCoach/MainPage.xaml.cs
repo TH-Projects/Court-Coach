@@ -31,8 +31,8 @@ namespace CourtCoach
             this.InitializeComponent();
             Instance = this;
             _control = Control.Instance;
-            contentFrame.Navigated += OnNavigated;
-            contentFrame.Navigate(typeof(MainMenue));
+            fr_content.Navigated += OnNavigated;
+            fr_content.Navigate(typeof(MainMenue));
             this.Loading += OnLoading;
         }
         private async void OnLoading(object sender,object arg)
@@ -42,22 +42,20 @@ namespace CourtCoach
         private void OnNavigated(object sender, NavigationEventArgs args)
         {
             if (args.SourcePageType == typeof(MainMenue))
-                btn_page_return.Visibility = Visibility.Collapsed;
+                btn_pageReturn.Visibility = Visibility.Collapsed;
             else
-                btn_page_return.Visibility = Visibility.Visible;
+                btn_pageReturn.Visibility = Visibility.Visible;
         }
 
         public void NavigateTo(Type page)
         {
-            contentFrame.Navigate(page);
+            fr_content.Navigate(page);
         }
 
-        private void page_return_OnClick(object sender, EventArgs e)
+        private void btn_pageReturn_OnClick(object sender, EventArgs e)
         {
-            if (contentFrame.CanGoBack)
-                contentFrame.GoBack();
+            if (fr_content.CanGoBack)
+                fr_content.GoBack();
         }
-
-        
     }
 }

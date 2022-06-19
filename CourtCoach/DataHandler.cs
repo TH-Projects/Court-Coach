@@ -13,13 +13,13 @@ namespace CourtCoach
 {
     public class DataHandler
     {
-        private static readonly DataHandler instance = new DataHandler();
+        private static readonly DataHandler s_instance = new DataHandler();
         XmlSerializer sr = new XmlSerializer(typeof(SessionData));
         public static DataHandler Instance
         {
             get
             {
-                return instance;
+                return s_instance;
             }
         }
         public async Task SaveData(List<Session> data)
@@ -28,14 +28,14 @@ namespace CourtCoach
             sd.Sessions = data;
             var file = await getDataFile(); //bekommen xml file
             string fd;
-            using (StringWriter writer = new Utf8StringWriter()) { 
+            using (StringWriter writer = new Utf8StringWriter())
+            {
                 sr.Serialize(writer, sd); //serialisieren von den objekten in xml
                 fd = writer.ToString();
             }
             await FileIO.WriteTextAsync(file, fd); //Schreibt in die datei
-                
-        }
 
+        }
         private async Task<StorageFile> getDataFile()
         {
             StorageFolder storage = ApplicationData.Current.RoamingFolder; //späterer Speicherplatz holen
@@ -47,7 +47,6 @@ namespace CourtCoach
             }
             return await storage.GetFileAsync("courtCoachData.xml"); //rückgabe der existierenden Datei
         }
-
         public async Task<List<Session>> LoadData()
         {
             var file = await getDataFile(); //bekommen xml file
@@ -55,7 +54,7 @@ namespace CourtCoach
             try
             {
                 XmlReader reader = XmlReader.Create(stream); // bauen eines xmlreaders
-                 return ((SessionData)sr.Deserialize(reader)).Sessions; //deserialisieren und Rückgabe
+                return ((SessionData)sr.Deserialize(reader)).Sessions; //deserialisieren und Rückgabe
             }
             catch
             {
@@ -63,7 +62,7 @@ namespace CourtCoach
             }
         }
     }
-    
+
     public class Utf8StringWriter : StringWriter
     {
         public override Encoding Encoding => Encoding.UTF8;

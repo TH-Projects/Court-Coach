@@ -8,5 +8,6 @@ namespace CourtCoach
 {
     public class HandlingSession : Session
     {
+        //todo
     }
 }

@@ -11,15 +11,13 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=234238 dokumentiert.
 
 namespace CourtCoach
 {
-    /// <summary>
-    /// Eine leere Seite, die eigenständig verwendet oder zu der innerhalb eines Rahmens navigiert werden kann.
-    /// </summary>
     public sealed partial class ShootingStatsTable : Page
     {
         private int _twoPointAttempts = 0;
@@ -28,6 +26,8 @@ namespace CourtCoach
         private int _twoPointHits = 0;
         private int _freethrowHits = 0;
         private int _threePointHits = 0;
+        private string _startTime;
+        private string _endTime;
         private Control _control;
 
         public int TwoPointAttempts { set { _twoPointAttempts = value; } }
@@ -36,11 +36,12 @@ namespace CourtCoach
         public int TwoPointHits { set { _twoPointHits = value; } }
         public int FreethrowHits { set { _freethrowHits = value; } }
         public int ThreePointHits { set { _threePointHits = value; } }
+        public string StartTime { set { _startTime = value; } }
+        public string EndTime { set { _endTime = value; } }
         public ShootingStatsTable()
         {
             this.InitializeComponent();
             _control = Control.Instance;
-            _control.SplitSessionList();
             _control.GetShootingValues(this);
             FillTable();
         }
@@ -55,16 +56,18 @@ namespace CourtCoach
         {
             return String.Format("{0}/{1}", hits, att);
         }
-
         private void FillTable()
         {
-            FreethrowTries.Text = PrintTries(_freethrowAttempts, _freethrowHits);
-            TwoPointTries.Text = PrintTries(_twoPointAttempts, _twoPointHits);
-            ThreePointTries.Text = PrintTries(_threePointAttempts, _threePointHits);
+            txt_freethrowTries.Text = PrintTries(_freethrowAttempts, _freethrowHits);
+            txt_twoPointTries.Text = PrintTries(_twoPointAttempts, _twoPointHits);
+            txt_threePointTries.Text = PrintTries(_threePointAttempts, _threePointHits);
 
-            FreethrowRate.Text = PrintHitRate(_freethrowAttempts, _freethrowHits);
-            TwoPointRate.Text = PrintHitRate(_twoPointAttempts, _twoPointHits);
-            ThreePointRate.Text = PrintHitRate(_threePointAttempts, _threePointHits);
+            txt_freethrowRate.Text = PrintHitRate(_freethrowAttempts, _freethrowHits);
+            txt_twoPointRate.Text = PrintHitRate(_twoPointAttempts, _twoPointHits);
+            txt_threePointRate.Text = PrintHitRate(_threePointAttempts, _threePointHits);
+
+            txt_endTime.Text = String.Format("bis {0}", _endTime);
+            txt_startTime.Text = String.Format("Von {0}", _startTime);
         }
     }
 }

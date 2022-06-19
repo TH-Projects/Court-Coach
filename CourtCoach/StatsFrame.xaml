@@ -20,6 +20,9 @@
             <RowDefinition Height="4*"></RowDefinition>
         </Grid.RowDefinitions>
 
+        <Grid Grid.ColumnSpan="3" Grid.RowSpan="3">
+            <Image x:Name="img_background" Stretch="UniformToFill" Opacity="0.8"/>
+        </Grid>
         <Grid Grid.Column="0" Grid.Row="1">
             <local:ResponsiveButton x:Name="btn_PreviousTable" Text="❮"
                                     MaxTextHeight="60" BorderThickness="1"
