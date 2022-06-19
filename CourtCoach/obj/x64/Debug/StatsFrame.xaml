@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.ColumnSpan="3" Grid.RowSpan="3">
-            <Image x:ConnectionId='5' x:Name="img_BG" Stretch="UniformToFill" Opacity="0.8"/>
+            <Image x:ConnectionId='5' x:Name="img_background" Stretch="UniformToFill" Opacity="0.8"/>
         </Grid>
         <Grid Grid.Column="0" Grid.Row="1">
             <local:ResponsiveButton x:ConnectionId='4' x:Name="btn_PreviousTable" Text="❮"

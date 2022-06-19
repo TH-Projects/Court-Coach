@@ -39,7 +39,7 @@ namespace CourtCoach
         private async Task<StorageFile> getDataFile()
         {
             StorageFolder storage = ApplicationData.Current.RoamingFolder; //späterer Speicherplatz holen
-            await Launcher.LaunchFolderAsync(storage); //Ordner Starten (Explorer geht auf)
+            //await Launcher.LaunchFolderAsync(storage); //Ordner Starten (Explorer geht auf)
             IStorageItem item = await storage.TryGetItemAsync("courtCoachData.xml"); // versuche element zu bekommen
             if (item == null) //wenn element nicht existiert
             {
