@@ -43,14 +43,14 @@
 
             <Grid Grid.Column="1" Grid.Row="1">
                 <local:ResponsiveButton x:ConnectionId='4' x:Name="uc_training" Text="Start training"
-                                        MaxTextHeight="80" MinTextHeight="30" 
+                                        MaxTextHeight="80" MinTextHeight="25" 
                                         Margin="0,35,0,35"                                 
                 />
             </Grid>
 
             <Grid Grid.Column="3" Grid.Row="1">
                 <local:ResponsiveButton x:ConnectionId='3' x:Name="uc_stats" Text="Show statistics" 
-                                        MaxTextHeight="80" MinTextHeight="30" 
+                                        MaxTextHeight="80" MinTextHeight="25" 
                                         Margin="0,35,0,35"                            
                 />
             </Grid>

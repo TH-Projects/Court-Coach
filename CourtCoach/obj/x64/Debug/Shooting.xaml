@@ -35,32 +35,32 @@
                 <local:ResponsiveTextBlock Text="3-Pointer" MaxTextHeight="50" Margin="5"/>
             </Grid>
             <Grid Grid.Column="1" Grid.Row="0">
-                <local:ResponsiveButton x:ConnectionId='13' x:Name="btn_freethrowHit" MaxTextHeight="80" MinTextHeight="50"
+                <local:ResponsiveButton x:ConnectionId='13' x:Name="btn_freethrowHit" MaxTextHeight="80" MinTextHeight="25"
                                         Text="Hit" Margin="10"                                    
             />
             </Grid>
             <Grid Grid.Column="1" Grid.Row="1">
-                <local:ResponsiveButton x:ConnectionId='12' x:Name="btn_twoPointHit" MaxTextHeight="80" MinTextHeight="50"
+                <local:ResponsiveButton x:ConnectionId='12' x:Name="btn_twoPointHit" MaxTextHeight="80" MinTextHeight="25"
                                         Text="Hit" Margin="10"                                    
             />
             </Grid>
             <Grid Grid.Column="1" Grid.Row="2">
-                <local:ResponsiveButton x:ConnectionId='11' x:Name="btn_threePointHit" MaxTextHeight="80" MinTextHeight="50"
+                <local:ResponsiveButton x:ConnectionId='11' x:Name="btn_threePointHit" MaxTextHeight="80" MinTextHeight="25"
                                         Text="Hit" Margin="10"                                      
             />
             </Grid>
             <Grid Grid.Column="2" Grid.Row="0">
-                <local:ResponsiveButton x:ConnectionId='10' x:Name="btn_freethrowMiss" MaxTextHeight="80" MinTextHeight="50"
+                <local:ResponsiveButton x:ConnectionId='10' x:Name="btn_freethrowMiss" MaxTextHeight="80" MinTextHeight="25"
                                         Text="Miss" Margin="10"                                     
             />
             </Grid>
             <Grid Grid.Column="2" Grid.Row="1">
-                <local:ResponsiveButton x:ConnectionId='9' x:Name="btn_twoPointMiss" MaxTextHeight="80" MinTextHeight="50"
+                <local:ResponsiveButton x:ConnectionId='9' x:Name="btn_twoPointMiss" MaxTextHeight="80" MinTextHeight="25"
                                         Text="Miss" Margin="10"                                    
             />
             </Grid>
             <Grid Grid.Column="2" Grid.Row="2">
-                <local:ResponsiveButton x:ConnectionId='8' x:Name="btn_threePointMiss" MaxTextHeight="80" MinTextHeight="50"
+                <local:ResponsiveButton x:ConnectionId='8' x:Name="btn_threePointMiss" MaxTextHeight="80" MinTextHeight="25"
                                         Text="Miss" Margin="10"                                      
             />
             </Grid>

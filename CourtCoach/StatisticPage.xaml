@@ -26,14 +26,14 @@
 
         <Grid Grid.Column="0" Grid.Row="1">
             <local:ResponsiveButton x:Name="btn_shootingStats" Text="Show shooting statistics"
-                                    MaxTextHeight="80" MinTextHeight="60" 
+                                    MaxTextHeight="80" MinTextHeight="25" 
                                     Margin="45,35,45,35" OnClick="btn_shootingStats_OnClick"                         
             />
         </Grid>
 
         <Grid Grid.Column="1" Grid.Row="1">
             <local:ResponsiveButton x:Name="btn_handlingStats" Text="Show handling statistics"
-                                    MaxTextHeight="80" MinTextHeight="60" 
+                                    MaxTextHeight="80" MinTextHeight="25" 
                                     Margin="45,35,45,35" OnClick="btn_handlingStats_OnClick"                              
             />
         </Grid>

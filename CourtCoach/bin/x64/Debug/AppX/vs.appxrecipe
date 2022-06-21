@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-1JED4L9</Machine>
+    <Machine>LAPTOP-VON-TIMO</Machine>
     <WindowsUser>Timo Heckmann</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>68de26b5-8c2a-4537-962d-9fadc63dbd0f</PackageIdentityName>
     <PackageIdentityPublisher>CN=Timo Heckmann</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0C6E229ED52A39AE40A1B2AE2E13CC52688E3260B68B701C053D0CD79EB0DCF7</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>225FF533588CC801ECDCA8B3B2977D05D0A4592D687008E9B22763613CAD1B04</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>68de26b5-8c2a-4537-962d-9fadc63dbd0f_1.0.0.0_x64__q7n782027h01m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>68de26b5-8c2a-4537-962d-9fadc63dbd0f_q7n782027h01m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>68de26b5-8c2a-4537-962d-9fadc63dbd0f</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-19T13:12:36.641</Modified>
+      <Modified>2022-06-20T10:10:03.181</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\CourtCoach.exe">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\CourtCoach.exe">
       <PackagePath>entrypoint\CourtCoach.exe</PackagePath>
-      <Modified>2022-06-19T13:12:35.535</Modified>
+      <Modified>2022-06-20T10:09:58.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Timo Heckmann\.nuget\packages\microsoft.web.webview2\1.0.1018-prerelease\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -70,388 +70,388 @@
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2021-09-17T07:30:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\adad %282%29.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\adad %282%29.jpg">
       <PackagePath>Assets\adad %282%29.jpg</PackagePath>
-      <Modified>2022-02-14T13:58:32.091</Modified>
+      <Modified>2022-06-19T13:18:36.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Basket.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Basket.jpg">
       <PackagePath>Assets\Basket.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.419</Modified>
+      <Modified>2022-06-19T13:18:36.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg">
       <PackagePath>Assets\Basketball_spielende_Jugendliche_in_der_Panzerhalle_in_Tübingen.jpg</PackagePath>
-      <Modified>2022-02-13T13:55:55.373</Modified>
+      <Modified>2022-06-19T13:18:36.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BasketBG.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\BasketBG.jpg">
       <PackagePath>Assets\BasketBG.jpg</PackagePath>
-      <Modified>2022-06-17T14:54:03.391</Modified>
+      <Modified>2022-06-19T13:18:36.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Floater.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Floater.jpg">
       <PackagePath>Assets\Floater.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.441</Modified>
+      <Modified>2022-06-19T13:18:36.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Fotolia_149218236_XL.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Fotolia_149218236_XL.jpg">
       <PackagePath>Assets\Fotolia_149218236_XL.jpg</PackagePath>
-      <Modified>2022-02-13T13:58:09.693</Modified>
+      <Modified>2022-06-19T13:18:36.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\handleOne.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\handleOne.jpg">
       <PackagePath>Assets\handleOne.jpg</PackagePath>
-      <Modified>2022-05-04T08:00:55.929</Modified>
+      <Modified>2022-06-19T13:18:36.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\HandleTwo.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\HandleTwo.jpg">
       <PackagePath>Assets\HandleTwo.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.449</Modified>
+      <Modified>2022-06-19T13:18:36.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LayupOne.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LayupOne.jpg">
       <PackagePath>Assets\LayupOne.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.453</Modified>
+      <Modified>2022-06-19T13:18:36.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LayupThree.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LayupThree.jpg">
       <PackagePath>Assets\LayupThree.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.456</Modified>
+      <Modified>2022-06-19T13:18:36.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LayupTwo.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LayupTwo.jpg">
       <PackagePath>Assets\LayupTwo.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.459</Modified>
+      <Modified>2022-06-19T13:18:36.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Shoot.jpg">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Shoot.jpg">
       <PackagePath>Assets\Shoot.jpg</PackagePath>
-      <Modified>2022-05-04T07:47:40.463</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:10.280</Modified>
+      <Modified>2022-06-19T13:18:36.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:10.442</Modified>
+      <Modified>2022-06-19T13:18:36.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:10.594</Modified>
+      <Modified>2022-06-19T13:18:36.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:10.743</Modified>
+      <Modified>2022-06-19T13:18:36.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:10.890</Modified>
+      <Modified>2022-06-19T13:18:36.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\CourtCoach.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\CourtCoach.png">
       <PackagePath>Assets\CourtCoach.png</PackagePath>
-      <Modified>2022-02-14T13:54:18.094</Modified>
+      <Modified>2022-06-19T13:18:36.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:05.174</Modified>
+      <Modified>2022-06-19T13:18:36.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:05.334</Modified>
+      <Modified>2022-06-19T13:18:36.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:05.509</Modified>
+      <Modified>2022-06-19T13:18:36.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:05.716</Modified>
+      <Modified>2022-06-19T13:18:36.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.010</Modified>
+      <Modified>2022-06-19T13:18:36.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\placeholder.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\placeholder.png">
       <PackagePath>Assets\placeholder.png</PackagePath>
-      <Modified>2022-02-13T15:16:37.898</Modified>
+      <Modified>2022-06-19T13:18:36.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:02.804</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:02.953</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:03.105</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:03.262</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:03.418</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:09.172</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:09.335</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:09.524</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:10.122</Modified>
+      <Modified>2022-06-19T13:18:36.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:03.567</Modified>
+      <Modified>2022-06-19T13:18:36.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:03.725</Modified>
+      <Modified>2022-06-19T13:18:36.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:03.872</Modified>
+      <Modified>2022-06-19T13:18:36.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:04.225</Modified>
+      <Modified>2022-06-19T13:18:36.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:08.429</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:08.569</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:09.009</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:08.709</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:08.850</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.658</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:08.284</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.950</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:08.090</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.157</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.317</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.458</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.744</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.894</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.038</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.511</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.176</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.338</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:11.030</Modified>
+      <Modified>2022-06-19T13:18:36.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:11.176</Modified>
+      <Modified>2022-06-19T13:18:36.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:11.338</Modified>
+      <Modified>2022-06-19T13:18:36.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:11.481</Modified>
+      <Modified>2022-06-19T13:18:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:11.642</Modified>
+      <Modified>2022-06-19T13:18:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:04.367</Modified>
+      <Modified>2022-06-19T13:18:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:04.516</Modified>
+      <Modified>2022-06-19T13:18:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:04.660</Modified>
+      <Modified>2022-06-19T13:18:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:05.013</Modified>
+      <Modified>2022-06-19T13:18:36.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-11-22T13:31:21.443</Modified>
+      <Modified>2022-06-19T13:18:36.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:09.733</Modified>
+      <Modified>2022-06-19T13:18:36.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:04.049</Modified>
+      <Modified>2022-06-19T13:18:36.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:06.595</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:07.808</Modified>
+      <Modified>2022-06-19T13:18:36.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-26T10:07:04.811</Modified>
+      <Modified>2022-06-19T13:18:36.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-02-12T15:11:38.294</Modified>
+      <Modified>2022-06-19T13:18:36.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\CourtCoach.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\CourtCoach.xr.xml">
       <PackagePath>CourtCoach.xr.xml</PackagePath>
-      <Modified>2022-06-17T14:54:59.661</Modified>
+      <Modified>2022-06-19T13:18:39.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.389</Modified>
+      <Modified>2022-06-20T10:09:57.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\MainMenue.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\MainMenue.xbf">
       <PackagePath>MainMenue.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.389</Modified>
+      <Modified>2022-06-20T10:09:57.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.389</Modified>
+      <Modified>2022-06-20T10:09:57.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ResponsiveButton.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\ResponsiveButton.xbf">
       <PackagePath>ResponsiveButton.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ResponsiveTextBlock.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\ResponsiveTextBlock.xbf">
       <PackagePath>ResponsiveTextBlock.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\Shooting.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\Shooting.xbf">
       <PackagePath>Shooting.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\ShootingStatsTable.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\ShootingStatsTable.xbf">
       <PackagePath>ShootingStatsTable.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\StatisticPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\StatisticPage.xbf">
       <PackagePath>StatisticPage.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\StatsFrame.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\StatsFrame.xbf">
       <PackagePath>StatsFrame.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\TrainingPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\TrainingPage.xbf">
       <PackagePath>TrainingPage.xbf</PackagePath>
-      <Modified>2022-06-19T13:12:35.390</Modified>
+      <Modified>2022-06-20T10:09:57.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -461,13 +461,13 @@
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2022-01-18T21:44:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-17T14:55:00.245</Modified>
+      <Modified>2022-06-20T10:09:59.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GithubLocal\CourtCoach\CourtCoach\bin\x64\Debug\Core\CourtCoach.exe">
+    <AppxPackagedFile Include="C:\Users\Timo Heckmann\Documents\GitHubLocal\Court-Coach\CourtCoach\bin\x64\Debug\Core\CourtCoach.exe">
       <PackagePath>CourtCoach.exe</PackagePath>
-      <Modified>2022-06-19T13:12:36.628</Modified>
+      <Modified>2022-06-20T10:10:03.150</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

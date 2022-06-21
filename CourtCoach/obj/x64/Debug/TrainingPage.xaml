@@ -26,7 +26,7 @@
 
         <Grid Grid.Column="0" Grid.Row="1">
             <local:ResponsiveButton x:ConnectionId='4' x:Name="btn_shooting" Text="Start shooting session"
-                                    MaxTextHeight="80" MinTextHeight="60" 
+                                    MaxTextHeight="80" MinTextHeight="25" 
                                     Margin="45,35,45,35"                                                         
             />
         </Grid>
@@ -37,7 +37,7 @@
 
         <Grid Grid.Column="1" Grid.Row="1">
             <local:ResponsiveButton x:ConnectionId='2' x:Name="btn_handling" Text="Start handling drill"
-                                    MaxTextHeight="80" MinTextHeight="60" 
+                                    MaxTextHeight="80" MinTextHeight="25" 
                                     Margin="45,35,45,35"                                                             
             />
         </Grid>
